@@ -1,0 +1,43 @@
+        p{
+            border: 2px solid green;
+            padding: 10px;
+            font-size : 18px;
+            text-align : justify;
+            background-image: url('../fabicon.jpg');
+            background-position : top center;
+        }
+/* 
+        body{
+            background-image: url();
+        } */
+h2{
+    text-align: center;
+    color : red;
+}
+
+div.subjects{
+    display: flex;
+    background-color: lightgray;
+}
+
+.sub-items{
+    background-color: blueviolet;
+    color : black;
+    padding : 15px;
+}
+
+div.subjects .sub-items:nth-child(odd){
+    background-color: rgb(255, 105, 180);
+
+}
+
+/* css for table  */
+th{
+    background-color: black;
+    color : white;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
