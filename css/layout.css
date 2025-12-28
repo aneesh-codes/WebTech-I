@@ -1,0 +1,42 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #67a;
+}
+
+nav{
+    padding: 10px 0;
+    background-color: #9a6;
+    padding-left: 50px;
+}
+
+aside{
+    height: 500px;
+    width: 30%;
+    padding-top: 50px;
+    border: 1px solid black;
+    float: left;
+    background-color: green;
+}
+
+section{
+    width: 70%;
+    height: 500px;
+    padding-top : 50px;
+    border: 1px solid black;
+    float: right; /*float right le garda section right ma jancha */
+    background-color: yellowgreen;
+}
+
+footer{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    padding-top: 20px;
+}
