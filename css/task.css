@@ -28,13 +28,16 @@ header{
 .content{
     background-color: aliceblue;
     text-align: justify;
+    padding: 10px;
     float: left;
-    width : 85%;
-
+    height: 400px;
+    width: 80%;    
 } 
 
 .side-bar{
+    height: 400px;
     width : 15%;
+    padding: 10px;
     float : right;
     background-color: aquamarine;
 }
