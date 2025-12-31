@@ -1,0 +1,54 @@
+header{
+    background-color: skyblue;
+}
+.nav{
+    float: right;
+    /* clear: both; */
+    padding: 20px;
+}
+/* id selectors of nav menu  */
+#home{
+    padding: 20px;
+}
+
+#about{
+    padding: 20px;
+}
+
+#contact{
+    padding: 20px;
+}
+
+#explore{
+    padding: 20px;
+}
+
+/* css for content part  */
+
+.content{
+    background-color: aliceblue;
+    text-align: justify;
+    float: left;
+    width : 85%;
+
+} 
+
+.side-bar{
+    width : 15%;
+    float : right;
+    background-color: aquamarine;
+}
+
+.foot-head{
+     clear: both; 
+    background-color: skyblue;
+    width: 80%;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.Links{
+    background-color: skyblue;
+    width: 20%;
+    float: right;
+}
