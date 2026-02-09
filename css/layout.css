@@ -7,36 +7,42 @@
 header{
     text-align: center;
     padding: 10px 0;
-    background-color: #67a;
+    background-color: red;
 }
 
 nav{
     padding: 10px 0;
-    background-color: #9a6;
+    background-color: black;
     padding-left: 50px;
 }
 
 aside{
+    margin-top: 2px;
     height: 500px;
     width: 30%;
-    padding-top: 50px;
-    border: 1px solid black;
     float: left;
-    background-color: green;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 30px;
 }
 
 section{
-    width: 70%;
+    float : right;
     height: 500px;
-    padding-top : 50px;
-    border: 1px solid black;
-    float: right; /*float right le garda section right ma jancha */
-    background-color: yellowgreen;
+    width: 70%;
+    background-color: greenyellow;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 2px;
+
 }
 
 footer{
     text-align: center;
     background-color: aqua;
+    clear: both; /* clear both is used to remove the effect of float */
     padding: 10px;
-    padding-top: 20px;
 }

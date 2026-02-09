@@ -1,0 +1,41 @@
+/* psuedo-class */
+
+#primary-btn{
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block; /*yo use garena vane margin tople kaam gardaina*/
+    margin-top: 20px;
+}
+
+#primary-btn:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+
+#primary-btn:active{
+    background-color: red;
+    color: blue;  
+    /* use of primary-btn active see in ai  */
+}
+
+#primary-btn:visited{
+    color: green;
+}
+
+/* psuedo-element */
+
+h2::first-letter{
+    font-size: 200%;
+    color: red;
+}
+
+p::selection{
+    background-color: black;
+    color: greenyellow;
+}
+
+p::first-line{
+    font-weight: bold;
+    font-size: 120%;
+    color: red;
+}

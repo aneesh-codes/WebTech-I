@@ -12,23 +12,22 @@
         } */
 h2{
     text-align: center;
-    color : red;
+    color: red;
 }
-
 div.subjects{
     display: flex;
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 
-.sub-items{
+div.sub-items{
     background-color: blueviolet;
-    color : black;
-    padding : 15px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    padding: 20px;
 }
 
 div.subjects .sub-items:nth-child(odd){
     background-color: rgb(255, 105, 180);
-
 }
 
 /* css for table  */
