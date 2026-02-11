@@ -5,12 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Aliens</title>
+
+    <!-- this is for form validation -->
+     <!-- tara yo form validation napadh formvalid.html bata padha na  -->
+    <script>
+        function validateForm(){
+            var a = document.getElementById("username").value;
+            var b = document.getElementById("email").value;
+            var c = document.getElementById("password").value;
+
+            if(a== "" || b== "" || c== ""){
+                alert("All fields are mandatory");
+                // return false;
+            }
+
+            if(c.length < 8){
+                alert("Password must be at least 8 characters long");
+                // return false;
+        }
+
+        } 
+    </script>
 </head>
 
 <body>
     <h2>Form to apply for Sigma Web Development Course</h2>
 
-    <form action="" method="post">
+    <form onsubmit= "validateForm()" action="index.html" method="post">
         
     <div>
         <label for="username">Enter your username : </label>
@@ -29,17 +50,34 @@
 
     <div>
     <label for="Gender">Choose your gender :</label>
-    <input type="radio" id="male" name="gender">
-    <label for="male">Male</label>
-    <input type="radio" id="female" name="gender">
-    <label for="female">Female</label>
+    <input type="radio" id="male" name="Gender">
+    <label for="male">Sigma Male</label>
+    <input type="radio" id="female" name="Gender">
+    <label for="female">Sigma Female</label>
+    
+    </div>
+
+    <div>
+        <label for="course">Choose your course :</label>
+        <input type="checkbox" id="web-dev" name="course">
+        <label for="web-dev">Web Development</label>
+
+        <input type="checkbox" id="full" name="course">
+        <label for="full">Full Stack</label>
+
+        <input type="checkbox" id ="Python" name="course">
+        <label for="Python">Python Developer</label>
     </div>
 
     <!-- button -->
-     <input type="button" value="Login">
+     <br>
+     <input type="submit" value="Submit Application">
 
     </form>
+<hr>
 
+<h2>Media Tag</h2>
+<audio controls = autoplay src ="song.mp3" ></audio>
 </body>
 
 </html>
